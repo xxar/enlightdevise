@@ -69,7 +69,7 @@ $bqno++;
                     </p>
                     <ul class="nav movedx" data-movedx-mid="1">
                         <li class="navitem">
-                            <a class="active" href="/" target="_self">
+                             <a class="" href="/" target="_self">
                                 <span data-title="首页">首页</span></a>
                         </li>
 
@@ -325,10 +325,13 @@ if($bqr[classid]==5||$bqr[classid]==9)//当前栏目ID
     </div>
 </div>
 <div id="footer">
-    <p>
-        <span class="ellipsis">深光照明设计有限公司  备案号：粤ICP备17111536号   电话：18682063660 COPYRIGHT (?) 2017 由 <a target="_blank" href="http://www.shixun.co" style="color: #999999;">世迅互联</a> 提供技术支持</span>
-        <a class="beian" href="" style="color: #363636;vertical-align: top;margin-left: 10px;display: inline-block;" target="_blank"></a>
-    </p>
+    <div class="info">
+        深光照明设计有限公司 Copyright © 2017-2020 粤ICP备17111536号  
+        <span class="to">
+            联系人： 李先生
+            <span class="tel">电话：<a href="tel:18682063660">18682063660</a></span>
+        </span>
+    </div>
 </div>
 <?php
 $bqno=0;
